@@ -29,7 +29,8 @@ export default {
 <style scoped>
     .grid{
         display:grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: repeat(auto-fit, minmax(360px,1fr));
+        grid-template-rows: repeat(2, 450px);
         column-gap: 10px;
         row-gap: 10px;
     }

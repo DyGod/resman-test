@@ -60,14 +60,14 @@ export default {
 <style scoped>
 .prize-grid{
     display:grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
     column-gap: 25px;
     row-gap: 25px;
     padding: 25px 0;
 }
 .prize-image{
     width:100%;
-    height: 600px;
+    height: 500px;
 }
 .prize-image img{
     max-width: 100%;
@@ -80,7 +80,7 @@ export default {
 .description-grid{
     border-top: solid 2px #e1e1e1;
     display:grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 25% 75%;
     row-gap: 25px;
     padding: 50px 0;
 }
