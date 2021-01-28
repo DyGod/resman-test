@@ -80,7 +80,7 @@ export default {
 .description-grid{
     border-top: solid 2px #e1e1e1;
     display:grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 30% 70%;
     row-gap: 25px;
     padding: 50px 0;
 }

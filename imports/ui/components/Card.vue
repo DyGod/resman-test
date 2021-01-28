@@ -44,8 +44,8 @@ export default {
 .btn{
     background-color: #ffce0a;
     border: none;
-    border-radius: 30px;
-    padding: 15px 30px;
+    border-radius: 40px;
+    padding: 20px 40px;
 }
 
 </style>
